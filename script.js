@@ -123,7 +123,7 @@ for(const item of perguntas){
                 alert('Você acertou..')
               corretas.add(item)
             }else{
-                alert('Você Errou..')
+                alert('Você Errou...')
             }
       
             mostrarTotal.textContent = corretas.size + ' de ' + totalDePerguntas
